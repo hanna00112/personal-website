@@ -1,4 +1,5 @@
 import Portrait from "./Portrait";
+import { publicUrl } from "../publicUrl";
 import SocialLinks from "./SocialLinks";
 
 const socials = [
@@ -26,7 +27,7 @@ export default function Hero() {
         <h1 className="name">Hanna Abrahem</h1>
         <SocialLinks socials={socials} />
       </div>
-      <Portrait src="/portrait.jpg" name="Hanna Abrahem" initials="HA" />
+      <Portrait src={publicUrl("portrait.jpg")} name="Hanna Abrahem" initials="HA" />
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import ExperienceList from "../components/ExperienceList";
+import { publicUrl } from "../publicUrl";
 
 export const work = [
   {
@@ -7,7 +8,7 @@ export const work = [
     location: "San Francisco, California",
     start: "Sept 2026",
     end: "Present",
-    logoImage: "/logos/salesforce.svg",
+    logoImage: publicUrl("logos/salesforce.svg"),
     logoText: "OR",
     logoBg: "#ffffff",
     logoColor: "#f6f1ea",
@@ -20,7 +21,7 @@ export const work = [
     location: "San Francisco, California",
     start: "May 2025",
     end: "Aug 2025",
-    logoImage: "/logos/salesforce.svg",
+    logoImage: publicUrl("logos/salesforce.svg"),
     logoText: "OR",
     logoBg: "#ffffff",
     logoColor: "#3d2b1f",
@@ -34,7 +35,7 @@ export const work = [
     location: "San Francisco, California",
     start: "June 2024",
     end: "Aug 2024",
-    logoImage: "/logos/salesforce.svg",
+    logoImage: publicUrl("logos/salesforce.svg"),
     logoText: "OR",
     logoBg: "#ffffff",
     logoColor: "#f6f1ea",
@@ -48,7 +49,7 @@ export const work = [
     location: "Haverford, Pennsylvania",
     start: "Sep 2023",
     end: "May 2024",
-    logoImage: "/logos/haverford.png",
+    logoImage: publicUrl("logos/haverford.png"),
     logoText: "HC",
     logoBg: "#ffffff",
     logoColor: "#f6f1ea",
@@ -65,7 +66,7 @@ export const education = [
     location: "Haverford, Pennsylvania",
     start: "Aug 2022",
     end: "May 2026",
-    logoImage: "/logos/haverford.png",
+    logoImage: publicUrl("logos/haverford.png"),
     logoText: "HC",
     logoBg: "#ffffff",
     logoColor: "#f6f1ea",
@@ -77,7 +78,7 @@ export const education = [
     location: "Ifrane, Morocco",
     start: "Sept 2024",
     end: "Dec 2024",
-    logoImage: "/logos/AUI.png",
+    logoImage: publicUrl("logos/AUI.png"),
     logoText: "AUI",
     logoBg: "#ffffff",
     logoColor: "#f6f1ea",
