@@ -5,7 +5,7 @@ export default function Blog() {
     <>
       <h1 className="display page-title">Blog</h1>
       {posts.length === 0 ? (
-        <p className="empty">Posts you add in this file will show up here.</p>
+        <p className="empty">...</p>
       ) : (
         <div className="posts">
           {posts.map((post) => (

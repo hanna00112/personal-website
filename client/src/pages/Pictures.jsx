@@ -6,7 +6,7 @@ export default function Pictures() {
       <h1 className="display page-title">Pictures</h1>
       {pictures.length === 0 ? (
         <p className="empty">
-          Add image files to client/public/pictures, then list them in this file.
+          ...
         </p>
       ) : (
         <ul className="gallery">
