@@ -58,11 +58,12 @@ export default function SocialLinks({ socials }) {
   return (
     <ul className="socials">
       {socials.map((item) => {
-        const external = item.href.startsWith("http");
+        const href = typeof item.href === "string" && item.href ? item.href : "#";
+        const external = href.startsWith("http");
         return (
           <li key={item.label}>
             <a
-              href={item.href || "#"}
+              href={href}
               {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
             >
               <Icon name={item.icon} />
